@@ -8,7 +8,7 @@ exports.config = {
         browserName: 'chrome'
     }],
     sync: true,
-    logLevel: 'error',
+    logLevel: 'debug',
     coloredLogs: true,
     screenshotPath: './errorShots/',
     baseUrl: 'http://localhost',

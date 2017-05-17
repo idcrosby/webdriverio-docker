@@ -1,6 +1,5 @@
 app:
-  # build: .
-  image: webdriver-test
+  build: .
   command: npm test -- --host selenium
   links:
     - selenium
