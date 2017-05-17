@@ -1,0 +1,15 @@
+{
+  "name": "watcher-tests",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^3.4.0",
+    "wdio-mocha-framework": "^0.5.10"
+  }
+}
